@@ -20,3 +20,5 @@
 * manage_fs.h and .c are the files which handle the memory mapping of the filesytem.
 
 * procesador_de_pedidos.h and .c are the files which handle the communication between the rfs and the fsc.
+
+* file_operations.h and .c are the files which handle the operations with the filesystem, such as creating files, reading files, etc...
