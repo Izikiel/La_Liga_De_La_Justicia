@@ -27,4 +27,5 @@ Files -> create                     Directories -> list
 
 The server also had to manage concurrency, as it was allowed to have different connections from several clients at a time.
 
- 							 
+The commons folder provides different libraries for handling lists, queues and other data structures. 
+It was provided by the professors.
