@@ -25,6 +25,6 @@ Files -> create                     Directories -> list
           close
           truncate 
 
-The server also had to manage concurrency, as it allowed having connections from several clients at a time.
+The server also had to manage concurrency, as it was allowed to have different connections from several clients at a time.
 
-Server_Threading.h and .c are the files which handle concurrence.
+ 							 
