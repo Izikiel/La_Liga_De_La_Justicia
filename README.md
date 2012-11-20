@@ -16,15 +16,20 @@ that memory.
 
 The server (rfs) was built by Ezequiel Dario Gambaccini. It consisted of implementing Ext 2 revision 0 with sparse superblock 
 for managing the file system, as well as the typical file system operations:
-  
-Files -> create                     Directories -> list
-          read                                     create
-          write                                    delete
+```
+Files -> create                     
+          read                                     
+          write                                    
           delete
           open
           close
           truncate 
 
+Directories -> list
+				create
+				delete
+
+```
 The server also had to manage concurrency, as it was allowed to have different connections from several clients at a time.
 
 The commons folder provides different libraries for handling lists, queues and other data structures. 
