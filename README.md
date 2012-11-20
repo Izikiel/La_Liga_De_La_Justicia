@@ -26,8 +26,8 @@ Files -> create
           truncate 
 
 Directories -> list
-				create
-				delete
+			   create
+			   delete
 
 ```
 The server also had to manage concurrency, as it was allowed to have different connections from several clients at a time.

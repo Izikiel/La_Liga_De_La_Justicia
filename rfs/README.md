@@ -11,13 +11,12 @@
 └── README.md
 ```
 
+* Server_Threading.h and .c are the files which handle concurrence.
 
-Server_Threading.h and .c are the files which handle concurrence.
+* ext2_block_types.h and .c are the files where the ext2 specification is implemented.
 
-ext2_block_types.h and .c are the files where the ext2 specification is implemented.
+* ext2_def.h is a file where some specific ext2 values are defined as macros.
 
-ext2_def.h is a file where some specific ext2 values are defined as macros.
+* manage_fs.h and .c are the files which handle the memory mapping of the filesytem.
 
-manage_fs.h and .c are the files which handle the memory mapping of the filesytem.
-
-procesador_de_pedidos.h and .c are the files which handle the communication between the rfs and the fsc.
+* procesador_de_pedidos.h and .c are the files which handle the communication between the rfs and the fsc.
